@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Practice</title>
+    <style>
+        body {
+            background-color: #ebe0e0;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1em;
+            color: #34495e;
+            margin: 10px 0;
+        }
+        .highlight {
+            color: #e74c3c;
+            font-size: 1.2em;
+        }
+        blockquote {
+            border-left: 4px solid #7f8c8d;
+            padding-left: 10px;
+            color: #7f8c8d;
+            margin: 20px 0;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #dcdcdc;
+            margin: 20px 0;
+        }
+        .color-text {
+            color: #2980b9;
+        }
+        .color-bg {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+        }
+        .color-border {
+            border: 2px solid #3498db;
+            padding: 10px;
+        }
+        .block-element {
+            display: block;
+            background-color: #e1bee7;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .inline-element {
+            display: inline;
+            background-color: #ffccbc;
+            margin: 5px;
+            padding: 5px;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        fieldset {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #bbb;
+        }
+        legend {
+            padding: 0 10px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="password"], input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <h1>Test Webpage by Nicemon Dominic</h1>
+    <p class="highlight">I want to start an IT company.</p>
+
+   
+    <p>The path to <strong>success</strong> is  <em>hardwork and consistency</em>.</p>
+    <blockquote>
+        BLOCKQUOTE SECTION.
+    </blockquote>
+    <hr>
+    <p>Horizontal line</p>
+    <p class="color-text">Blue color text</p>
+    <p class="color-bg">Background color text</p>
+    <div class="color-border">Border Color</div>
+
+    <div class="block-element">BLOCK ELEMENT</div>
+    <span class="inline-element">INLINE ELEMENT</span>
+    <p>Paragraph with <a href="https://www.google.com" class="inline-element">Inline Link</a> to Google.</p>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Preferences</legend>
+            <label><u>Favorite Color:</u></label>
+            <input type="radio" name="color" value="Black">
+            <label for="colorBlack">Black</label>
+            <input type="radio" name="color" value="Red">
+            <label for="colorRed">Red</label>
+            <input type="radio" name="color" value="Purple">
+            <label for="colorPurple">Purple</label>
+            <input type="radio" name="color" value="Green">
+            <label for="colorGreen">Green</label>
+            
+            <label><u>Hobbies:</u></label>
+            <input type="checkbox" id="hobbyReading" name="hobby" value="reading">
+            <label for="hobbyReading">Reading</label>
+            <input type="checkbox" id="hobbyTraveling" name="hobby" value="traveling">
+            <label for="hobbyTraveling">Traveling</label>
+            <input type="checkbox" id="hobbySleeping" name="hobby" value="sleeping">
+            <label for="hobbySleeping">Sleeping</label>
+            <input type="checkbox" id="hobbyWriting" name="hobby" value="writing">
+            <label for="hobbyWriting">Writing</label>
+        </fieldset>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
